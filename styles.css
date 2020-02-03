@@ -1,0 +1,65 @@
+/* Stylesheet for troll battle
+
+	Author: James Volino
+	Date: 1/8/20
+	
+*/
+
+body{
+	background-image: url('trollyTroll.jpg');
+	background-repeat: no-repeat;
+	padding: 25px;
+}
+
+h1 { 
+	font-family: 'Rock Salt', cursive;
+	color:rgb(207,181,59);
+	text-align: center;
+	font-size: 75px;
+	text-shadow: 20px 20px 30px black;
+
+}
+
+div#button {
+	font-family:'Permanent Marker', cursive;
+	display: block;
+	color: black;
+	background-color: white;
+	font-size: 30px;
+	width: 250px;
+	text-align: center;
+	margin: auto;
+	border-radius: 30px;
+	height: 40px;
+	padding: 10px;
+}
+
+div#button:hover {
+	color: white;
+	background-color: black;
+	padding: 15px;
+	margin: auto;
+	text-align: center;
+	transition: 3s;
+}
+
+h2#result {
+	font-family: font-family: 'Permanent Marker', cursive;
+	color: white;
+	font-size: 50px;
+	text align: center;
+	margin: auto;
+	float: right;
+}
+
+h2#win {
+	font-family: font-family: 'Permanent Marker', cursive;
+	color: white;
+	font-size: 50px;
+	text align: center;
+	margin: auto;	
+	float: right;
+}
+
+
+
